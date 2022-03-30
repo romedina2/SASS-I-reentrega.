@@ -1,0 +1,30 @@
+@import "../components/maps";
+@import "../base/colores";
+
+header{
+    background-color: map-get($header, bg-header);
+    nav{
+        font-size: 20px;
+        ul{
+            li{
+                list-style: none;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 300px){
+        background-color: black;
+    }
+
+};
+
+.header-consultas{
+    nav{
+        background-color: antiquewhite;
+        h1{
+            color: aqua;
+        }
+    }
+}

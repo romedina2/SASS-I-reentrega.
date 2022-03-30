@@ -1,0 +1,17 @@
+$color-principal: #678678;
+$color-secundario: #734734;
+
+.btn-menu{
+    border: 1px solid darken($color-principal, 20%);
+    &:hover{
+        background-color: lighten($color-principal, 20%);
+    }
+}
+
+.fondo-header{
+    background-color: mix($color-principal, $color-secundario);
+}
+
+.saturado{
+    color: saturate($color-principal, 40%)
+}
